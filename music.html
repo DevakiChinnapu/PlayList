@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Music Playlist</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212; /* Dark modern background */
+      color: #f1f1f1; /* Light text for contrast */
+    }
+
+    h1 {
+      background: #1db954; /* Spotify-like green */
+      color: #ffffff;
+      text-align: center;
+      padding: 25px 0;
+      font-size: 2.8rem;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .song {
+      background-color: #1e1e1e;
+      border-radius: 12px;
+      margin: 20px auto;
+      padding: 20px;
+      width: 85%;
+      max-width: 750px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .song:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+    }
+
+    .song h2 {
+      font-size: 1.5rem;
+      color: #1db954;
+      margin-bottom: 10px;
+    }
+
+    .song img {
+      width: 100%;
+      max-width: 320px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 10px;
+      filter: brightness(0.9) contrast(1.2);
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #333;
+      width: 80%;
+      margin: 40px auto;
+    }
+
+    @media (max-width: 600px) {
+      .song {
+        width: 92%;
+      }
+
+      h1 {
+        font-size: 2rem;
+        padding: 18px;
+      }
+
+      .song h2 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Personal Music Playlist 🎵🎶</h1>
+
+  <div class="song">
+    <h2>Ninne Ninne Yadhalo Ninne..</h2>
+    <img src="img1.jpg" alt="Song 1 Image">
+    <audio controls>
+      <source src="song1.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="song">
+    <h2>Chusi Chudangane Nachesave..</h2>
+    <img src="img2.jpg" alt="Song 2 Image">
+    <audio controls>
+      <source src="song2.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="song">
+    <h2>Bharatha Vedhamuga Niratha Naatyamuga..</h2>
+    <img src="img3.jpg" alt="Song 3 Image">
+    <audio controls>
+      <source src="song3.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="song">
+    <h2>Lover Also Fighter Also..</h2>
+    <img src="img4.jpg" alt="Song 4 Image">
+    <audio controls>
+      <source src="song4.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="song">
+    <h2>Jaya Rathnakara Jayathoo..</h2>
+    <img src="img5.jpg" alt="Song 5 Image">
+    <audio controls>
+      <source src="song5.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="song">
+    <h2>Kadale kadale ennai udaitene..</h2>
+    <img src="img6.jpg" alt="Song 6 Image">
+    <audio controls>
+      <source src="song6.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+</body>
+</html>
